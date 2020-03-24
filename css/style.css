@@ -1,0 +1,145 @@
+.hide {
+  display: none;
+}
+a {
+  color: #FF5E84;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline; 
+}
+p, .description {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+body {
+  background-color: #e5e5e5;
+  color: #25282B;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div#container {
+  width: 90%;
+  max-width: 980px;
+  margin: 40px auto;
+  display: flex; /* faz com que seus filhos fiquem um ao lado outro*/
+}
+
+section#intro {
+  width: 300px;
+  margin-right: 20px;
+}
+main {
+  margin: 32px 0;
+}
+#buttons {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-evenly; 
+}
+button {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  border: none;
+  color: #FF5E84;
+  font-weight: bold;
+  background: none;
+  cursor: pointer;
+  outline: none; 
+}
+button:hover {
+  text-decoration: underline;
+}
+.fat {
+  color: white;
+  background-color: #FF5E84;
+  width: 150px;
+  height: 40px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 16px #FF5E8432;
+}
+button.fat:hover {
+  text-decoration: none;
+}
+footer{
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+  font-weight: 400;
+  color: #777777;
+}
+footer a {
+  opacity: 0.7;
+}
+.idea {
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.1);
+  margin-bottom: 32px;
+  padding: 32px;
+ 
+}
+.idea img {
+  width: 60px;
+  height: 60px;
+  margin-right: 32px;
+}
+.idea h3 {
+  margin: 0;
+}
+
+.idea p {
+  margin: 8px 0;
+  color: #777777;
+}
+.idea .description {
+  margin: 16px 0;
+}
+
+
+/* modal */
+
+#modal {
+  background-color: #FF5E84;
+  position: absolute;
+  top: 0;
+  margin-right: -4px;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;  
+  justify-content: center;
+
+}
+
+#modal .content {
+  margin-top: 12px;
+  color: white;
+}
+#modal .content h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+#modal form {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto ;
+
+}
+.input-wapper {
+  margin: 16px 0;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(141, 25, 52, 0.5);
+  outline: none;
+  font-size: 16px;
+}
